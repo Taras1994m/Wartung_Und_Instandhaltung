@@ -7,7 +7,7 @@ document.getElementById('form').addEventListener('submit', function(event) {
 
   // Send an HTTP request to the server-side script
   var xhr = new XMLHttpRequest();
-  xhr.open('POST', '/save-data.php');
+  xhr.open('POST', 'Wartung_Und_Instandhaltung/save-data.php');
   xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
   xhr.onload = function() {
     if (xhr.status === 200) {
