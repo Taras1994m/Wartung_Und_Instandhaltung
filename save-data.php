@@ -7,7 +7,7 @@ $name = $_POST['name'];
 $date = date('Y-m-d H:i:s');
 
 // Save the data to the CSV file
-$file = fopen('Data.csv', 'a');
+$file = fopen('Wartung_Und_Instandhaltung/Data.csv', 'a');
 fputcsv($file, [$name, $date]);
 fclose($file);
 
