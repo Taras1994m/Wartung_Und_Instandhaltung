@@ -10,7 +10,7 @@ document.getElementById('login-form').addEventListener('submit', function(event)
   var acceptTerms = document.getElementById('accept-terms').checked;
   if (acceptTerms) {
     // Redirect the user to the next page
-    window.location = '/next.html';
+    window.location = 'https://www.google.de/';
   } else {
     // Display an error message
     alert('Please accept the terms to proceed.');
